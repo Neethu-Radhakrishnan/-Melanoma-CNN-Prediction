@@ -32,7 +32,11 @@
 
 
 ## Conclusions
-  The batch normalization was used earlier but it worsens the performance of the model such that the Training accuracy and the validation accuracy were far apart. It showed that the model underfitted with batch normalisation. Hence it was not used. The highest training accuracy the model showed was 71% which was a big improvement. The highest Validation accuracy was about 59%. This is a massive improvement in the model in terms of accuracy. There is a slight case of overfitting but the blue line and orange line are close together, indicating that the model is performing well.
+Model 1: The maximum accuracy is around 87%. However the validation accuracy is about 56%. The gap between the blue line and orange line shows that there is strong evidence of Overfitting. There are no dropput layers.
+Model 2: The Overfitting problem has been eradicated.The distance between the blue line and Orange line is much less. The model accuracy is around 53% and the Validation accuracy is around 52%. The model accuracy and validation accuracy are very close to each other but are much less now as compared to before data_augmentation.Dropout layer with 30% Fraction.
+Model 3: The batch normalization was used earlier but it worsens the performance of the model such that the Training accuracy and the validation accuracy were far apart. Dropout layer with 30% fraction was added.
+It showed that the model underfitted with batch normalisation. Hence it was not used. The highest training accuracy the model showed was 71% which was a big improvement. 
+The highest Validation accuracy was about 59%. This is a massive improvement in the model in terms of accuracy. There is a slight case of overfitting but the blue line and orange line are close together, indicating that the model is performing well.
 Thus, it can be said that Balancing the data improved the performance of the model. For better performance, the sample size of the data should be increased.
 
 ## Technologies Used for CNN
